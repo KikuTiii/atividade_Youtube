@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow-x: hidden; */
+}
+main{
+    width: 100%;
+    height: auto;
+}
+#menu_esquerda{
+    position: fixed;
+    background-color:rgb(34, 34, 34, 0.98);
+    width: 5%;
+    height: 100%;
+}
+.icon{
+    display: block;
+    height: 3%;
+    width: 100%;
+    padding: 30% 0;
+}
+.icon p{
+    color: #fff;
+    text-align: center;
+    font-size: 60%;
+}
+.icon:hover{
+    background-color:rgb(88, 88, 88) ;
+}
+#menu_superior{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    margin-left: 5%; 
+    background-color:rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(77, 77, 77);
+    box-sizing: inherit;
+    float: left;
+}
+#logo{
+    position: absolute;
+    left: 0.5%;
+    width: 7%;
+    height: 100%;
+}
+#Pesquisa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+#Pesquisa input{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(19, 18, 18);
+    border-top: 1px solid rgb(88, 88, 88);
+    border-left: 1px solid rgb(88, 88, 88);
+    border-bottom: 1px solid rgb(88, 88, 88);
+    font-size: 120%;
+    padding-left: 2%;
+    float: left;
+    color: #FFF;
+    }
+   #bt_pesquisar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    border-top-right-radius: 3px;
+    width: 80px;
+    height: 30px;
+   }
+   .icon_2{
+    width: 70%;
+    height: 70%;
+   }
+   #perfil{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .icon_3{
+    width: 20%;
+    height: 50%;
+    margin-left: 40px;
+   }
+   .iconi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 80%;
+   }
+   .img_perfil{
+    border-radius: 50%;
+    height: 70%;
+    width: 70%;
+   }
+
+   #menu_superior2{
+    top: 7.1%;
+    position: fixed;
+    margin-left: 5%;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(34, 34, 34, 0.98);
+    border-bottom: 1px solid rgb(77, 77, 77);
+    box-sizing: inherit;
+    clear: both;
+   }
+   #links{
+    width: 95%;
+    height: 100%;
+    align-items: center;
+   }
+
+   #links ul{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+   }
+
+   #links ul li{
+    align-items: center;
+    border-radius: 30px;
+    height: 50%;
+    background-color: rgb(66, 66, 66);
+    border: 1.5px solid rgb(87, 87, 87);
+    transition: 3s;
+    display:flex;
+   }
+
+   #links ul li a{
+    font-weight: 450;
+    text-decoration: none;
+    color: #FFF;
+    display:flex;
+    font-size: 80%;
+    padding: 5px;
+ 
+   }
+
+   #links ul li:hover{
+    background-color: rgb(77, 77, 77);
+   }
+   .videos{
+    margin: 20px 0% 0 120px; 
+    height: 359px;
+    width: 100%;
+    float: left;
+   
+    display: flex ;
+   flex-direction: row;
+   justify-content:space-between;
+   }
+   .player{
+   margin: 1% 0 0 30px;
+   height: 20,13%;
+   width: 23%;
+  
+   }
+   .player img{
+    width: 100%;
+    
+   }
+
+   .videos_1{
+    margin-top: 120px;
+   
+   }
+   
+
+
+
+
+
+
+
